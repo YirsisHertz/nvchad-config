@@ -216,6 +216,7 @@ if present then
 
   -- load packer init options
   local init_options = require("plugins.configs.others").packer_init()
+
   init_options = require("core.utils").load_override(init_options, "wbthomason/packer.nvim")
 
   packer.init(init_options)
