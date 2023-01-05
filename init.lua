@@ -30,8 +30,5 @@ if fn.empty(fn.glob(install_path)) > 0 then
 end
 
 pcall(require, "custom")
-<<<<<<< HEAD
 
-=======
->>>>>>> 273fa21 (todo bien)
 require("core.utils").load_mappings()
